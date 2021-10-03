@@ -5,6 +5,7 @@ class config:
     DATABASE_URL = ""
     SUDO_USERS = "" # Sepearted by space.
     SUPPORT_CHAT_LINK = ""
+    ENV = "ANYTHING"
     DOWNLOAD_DIRECTORY = "./downloads/"
 
 
