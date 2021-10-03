@@ -16,7 +16,7 @@ try:
     BOT_TOKEN = os.environ.get('BOT_TOKEN')
     APP_ID = os.environ.get('APP_ID')
     API_HASH = os.environ.get('API_HASH')
-    DATABASE_URL = os.environ.get('DATABASE_URL')
+    DATABASE_URL = os.environ.get('postgres://saaprdxv:Y-AmME2Gj92glMS7XFOCsDvOk05pSaza@chunee.db.elephantsql.com/saaprdxv')
     SUDO_USERS = os.environ.get('SUDO_USERS')
     SUPPORT_CHAT_LINK = os.environ.get('SUPPORT_CHAT_LINK', 'https://t.me/ViperCommunity')
     DOWNLOAD_DIRECTORY = os.environ.get("DOWNLOAD_DIRECTORY", "./downloads/")
